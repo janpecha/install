@@ -7,5 +7,6 @@
 echo "Uprava stylu:"
 echo "/usr/share/themes/Ambiance Blue/gtk3.0/apps/gnome-panel.css"
 echo "překopírovaní souboru s fixem"
+echo "Ubuntu Tweak - Themes - Gtk Theme a Window Theme nastavit na Ambiance Blue"
 read -p "Press [Enter] key to exit..."
 
