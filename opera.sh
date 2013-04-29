@@ -2,6 +2,6 @@
 
 # instalace Opera
 
-echo "Download from opera.com, double-click, clink on Install package"
+echo "Download from opera.com, double-click, click on Install package"
 read -p "Press [Enter] key to exit..."
 
