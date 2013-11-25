@@ -54,6 +54,7 @@ echo " - error_reporting = E_ALL | E_STRICT"
 echo " - display_errors = On"
 echo " - display_startup_errors = On"
 echo " - track_errors = On"
+echo " - vypnout defaultne xdebug - smazat symlink z /etc/php5/conf.d"
 
 echo ""
 read -p "Press [Enter] key to exit..."
