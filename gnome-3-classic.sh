@@ -14,5 +14,10 @@
 echo "GNOME classic"
 apt-get install gnome-session-fallback
 
-# read -p "Press [Enter] key to exit..."
+echo ""
+echo "Gnome3 Classic (with effects) - Enable ALT+TAB:"
+echo "See: http://ubuntuforums.org/showthread.php?t=1968630&page=2&p=12375744#post12375744"
+echo ""
+
+read -p "Press [Enter] key to exit..."
 
