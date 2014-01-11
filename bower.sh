@@ -1,8 +1,6 @@
 #!/bin/bash
 
 # instalace Bower
-echo "Nainstalujte Node.JS"
-read -p "Press [Enter] key to exit..."
-
+./nodejs.sh
 npm install -g bower
 
