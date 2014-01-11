@@ -32,6 +32,9 @@ apt-get install php5-intl
 echo "Install PHP 5 Imagick"
 apt-get install php5-imagick
 
+echo "Install PHP 5 JSON"
+apt-get install php5-json
+
 echo "Install PHP 5 mcrypt"
 apt-get install php5-mcrypt
 
