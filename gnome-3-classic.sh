@@ -10,14 +10,10 @@
 # Non-Compiz users can create a less flat-look by enabling ‘shadow’ in Metacity
 # Support for themes, etc.
 
-# or apt-get install gnome-panel
-echo "GNOME classic"
-apt-get install gnome-session-fallback
+# http://ubuntuhandbook.org/index.php/2013/08/install-gnome-classic-in-ubuntu-13-10/
 
-echo ""
-echo "Gnome3 Classic (with effects) - Enable ALT+TAB:"
-echo "See: http://ubuntuforums.org/showthread.php?t=1968630&page=2&p=12375744#post12375744"
-echo ""
+# or apt-get install gnome-panel
+apt-get install gnome-session-fallback
 
 read -p "Press [Enter] key to exit..."
 
