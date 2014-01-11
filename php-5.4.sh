@@ -1,11 +1,10 @@
 #!/bin/bash
 
-# instalace PHP 5.4
-# http://stackoverflow.com/questions/18003819/how-to-install-php-5-4-install-on-ubuntu-desktop-12-04
+# instalace PHP 5.5
 # https://launchpad.net/~ondrej/+archive/php5
-echo "PHP 5.4"
-echo "Add repository ppa:ondrej/php5-oldstable"
-add-apt-repository ppa:ondrej/php5-oldstable
+echo "PHP 5.5"
+echo "Add repository ppa:ondrej/php5"
+add-apt-repository ppa:ondrej/php5
 
 echo "Update"
 apt-get update
@@ -50,6 +49,8 @@ apt-get install php5-xsl
 echo "Install PHP 5 xdebug"
 apt-get install php5-xdebug
 
+unlink /etc/php5/apache2/conf.d/20-xdebug.ini
+
 echo ""
 echo "Upravit nastaveni PHP (pro Apache2 a CLI):"
 echo " - short_open_tag = Off"
@@ -57,7 +58,11 @@ echo " - error_reporting = E_ALL | E_STRICT"
 echo " - display_errors = On"
 echo " - display_startup_errors = On"
 echo " - track_errors = On"
-echo " - vypnout defaultne xdebug - smazat symlink z /etc/php5/conf.d"
+echo " - vypnout defaultne xdebug - smazat symlink z /etc/php5/conf.d (automaticky)"
+#gedit /etc/php5/
+#unlink /etc/php5/conf.d/xdebug
+
+gedit /etc/php5/apache2/php.ini /etc/php5/cli/php.ini
 
 echo ""
 read -p "Press [Enter] key to exit..."
