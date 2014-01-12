@@ -54,6 +54,7 @@
 # games
 ./dosbox.sh
 ./fceux.sh
+./steam.sh
 
 # others
 ./youtube-dl.sh
