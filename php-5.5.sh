@@ -58,6 +58,7 @@ echo " - error_reporting = E_ALL | E_STRICT"
 echo " - display_errors = On"
 echo " - display_startup_errors = On"
 echo " - track_errors = On"
+echo " - date.timezone = Europe/Prague"
 echo " - vypnout defaultne xdebug - smazat symlink z /etc/php5/conf.d (automaticky)"
 #gedit /etc/php5/
 #unlink /etc/php5/conf.d/xdebug
