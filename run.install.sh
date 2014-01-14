@@ -62,6 +62,7 @@
 ./birdie.sh
 ./banshee.sh
 ./sublime-3.sh
+./spotify.sh
 
 # clean
 apt-get autoremove
