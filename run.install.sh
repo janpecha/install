@@ -63,6 +63,7 @@
 ./banshee.sh
 ./sublime-3.sh
 ./spotify.sh
+./cryptkeeper.sh
 
 # clean
 apt-get autoremove
