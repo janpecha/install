@@ -1,4 +1,4 @@
 #!/bin/bash
 
 # instalace Steam
-apt-get install steam
+apt-get install steam-launcher
