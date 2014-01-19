@@ -48,7 +48,6 @@
 
 # others
 ./youtube-dl.sh
-./birdie.sh
 ./banshee.sh
 ./sublime-3.sh
 ./spotify.sh
