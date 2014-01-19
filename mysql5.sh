@@ -59,21 +59,21 @@ echo " ---- $ ln -s /array2/mysql /var/lib/mysql"
 echo ""
 read -p "Press [Enter] key to continue..."
 
-echo ""
-echo " - Then update the AppArmor file /etc/apparmor.d/usr.sbin.mysqld:"
-echo " ---- Comment out the old references to /var/lib/mysql and add:"
-echo " ------- /array2/mysql/ r,"
-echo " ------- /array2/mysql/** rwk,"
-echo ""
-gedit /etc/apparmor.d/usr.sbin.mysqld
+# echo ""
+# echo " - Then update the AppArmor file /etc/apparmor.d/usr.sbin.mysqld:"
+# echo " ---- Comment out the old references to /var/lib/mysql and add:"
+# echo " ------- /array2/mysql/ r,"
+# echo " ------- /array2/mysql/** rwk,"
+# echo ""
+# gedit /etc/apparmor.d/usr.sbin.mysqld
 # read -p "Press [Enter] key to continue..."
 
-echo ""
-echo " ---- Reload the apparmor profiles:"
-echo " ------- $ sudo /etc/init.d/apparmor reload"
-echo ""
+# echo ""
+# echo " ---- Reload the apparmor profiles:"
+# echo " ------- $ sudo /etc/init.d/apparmor reload"
+# echo ""
 # read -p "Press [Enter] key to continue..."
-/etc/init.d/apparmor reload
+
 
 echo ""
 echo " - Start MySQL:"
