@@ -10,7 +10,7 @@ echo "********************************"
 echo ""
 ./mysql5.sh
 ./apache2.sh
-./php-5.4.sh
+./php-5.5.sh
 
 apt-get install libapache2-mod-php5
 
