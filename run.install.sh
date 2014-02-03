@@ -37,6 +37,7 @@
 ./bower.sh
 ./jshint.sh
 ./csslint.sh
+./less.sh
 
 ./gtg.sh
 ./hamster.sh
