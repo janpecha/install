@@ -3,35 +3,26 @@
 # init and git
 ./git.sh
 ./git-gui.sh
+./gitk.sh
 ./set.git.sh
 
 # login screen
-./numlockx.sh
-./remove.guest-session.sh
+./set.login-screen.numlock.sh
 
 # removing
-./remove.rhytmbox.sh
 ./remove.thunderbird.sh
 
 # tools and utils
 ./curl.sh
 ./mc.sh
 ./ghex.sh
-./synaptic.sh
-./gksu.sh
 
-# change Ubuntu settings
-./ubuntu.fonts.sh
-./gnome-3-classic.sh
-./set.gnome-3.alt-tab.sh
-./set.window.buttons.right.sh
+# change settings
+./fonts.sh
 ./touchpad-indicator.sh
 ./indicator-keylocks.sh
 
-./extend.nautilus.sh
-./set.nautilus.sh
-
-./nemo.sh
+./set.nemo.sh
 
 # browsers
 ./chromium.sh
@@ -40,12 +31,13 @@
 
 # work
 ./inkscape.sh
-./gimp-2.8.sh
-
+./set.gimp.sh
 ./filezilla.sh
 
 ./bower.sh
 ./jshint.sh
+./csslint.sh
+./less.sh
 
 ./gtg.sh
 ./hamster.sh
@@ -58,8 +50,6 @@
 
 # others
 ./youtube-dl.sh
-./vlc.sh
-./birdie.sh
 ./banshee.sh
 ./sublime-3.sh
 ./spotify.sh

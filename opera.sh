@@ -2,12 +2,13 @@
 
 # instalace Opera
 
+apt-get install opera
+
 echo ""
 echo "**********************************************************************"
 echo "*"
-echo "* Download from opera.com, double-click, click on Install package"
-echo "* Opera as default browser:"
-echo "* Nastavení systému > Podrobnosti > Výchozí aplikace"
+echo "* (Automaticly) Opera as default browser:"
+echo "* Nastavení systému > Aplikace & odpojitelna metida > Výchozí aplikace"
 echo "*"
 echo "**********************************************************************"
 echo ""

@@ -1,6 +1,11 @@
 #!/bin/bash
 
-# nastaveni Nautila
+# nastaveni Nemo
+
+apt-get install nemo-terminal
+
+cp -r data/nautilus-scripts/* ~/.gnome2/nemo-scripts/
+
 echo ""
 echo "************************************************************"
 echo "*"
