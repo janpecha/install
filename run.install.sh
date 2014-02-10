@@ -54,6 +54,7 @@
 ./sublime-3.sh
 ./spotify.sh
 ./cryptkeeper.sh
+./blender.sh
 
 # clean
 apt-get autoremove
