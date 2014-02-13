@@ -55,6 +55,7 @@
 ./spotify.sh
 ./cryptkeeper.sh
 ./blender.sh
+./ffmpeg.sh
 
 # clean
 apt-get autoremove
