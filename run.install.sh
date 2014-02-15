@@ -56,6 +56,7 @@
 ./cryptkeeper.sh
 ./blender.sh
 ./ffmpeg.sh
+./meld.sh
 
 # clean
 apt-get autoremove
