@@ -43,6 +43,8 @@
 ./hamster.sh
 ./skype.sh
 
+./sqlite-browser.sh
+
 # games
 ./dosbox.sh
 ./fceux.sh
