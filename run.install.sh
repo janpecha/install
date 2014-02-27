@@ -44,6 +44,7 @@
 ./skype.sh
 
 ./sqlite-browser.sh
+./trimage.sh
 
 # games
 ./dosbox.sh
